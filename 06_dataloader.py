@@ -114,11 +114,11 @@ class MainApp(MDApp):
 
     # Set the second user
     def set_user2(self, *args):
-        user1 = args[1]
+        user2 = args[1]
         self.root.ids.user2.avatar = 'https://images.unsplash.com/photo-1631731552291-b19fbd77282b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80'
-        self.root.ids.user2.name = user1['name']
-        self.root.ids.user2.email = user1['email']
-        self.root.ids.user2.website = user1['website']
+        self.root.ids.user2.name = user2['name']
+        self.root.ids.user2.email = user2['email']
+        self.root.ids.user2.website = user2['website']
 
     # request data from the web
     def send_request(self):
